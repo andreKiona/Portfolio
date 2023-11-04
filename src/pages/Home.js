@@ -44,8 +44,9 @@ function Home() {
           <li className="item">
             <h3> Electronics </h3>
             <span>
-              Board-level-Repair, Electronics Troubleshooting Skills, 
-              <br />Soldering Skills, PCB-Design with P-cad 
+              Board-level-Repair, Electronics Troubleshooting Skills 
+              <br />Soldering Skills, PCB-Design: Schematics and PCB Layout
+              <br />Basic electrical Panel design, Eplan software design of electrical panels
             </span>
           </li>
         </ol>
