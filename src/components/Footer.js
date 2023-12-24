@@ -22,6 +22,7 @@ function Footer() {
           <EmailIcon />
         </div>
       </div>
+
       <div className="copyright">
         <p> © 2023 Copyright</p>
       </div>
