@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #21325e;
   }
   
   .about {
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #324e73;
     color: #f0f0f0;
   }
   
@@ -79,5 +79,23 @@
     .skills h2 {
       font-size: 10px;
     }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about h2,
+  .about .prompt,
+  .skills h1,
+  .list span {
+    animation: fadeIn 1s ease-in-out forwards;
   }
   
